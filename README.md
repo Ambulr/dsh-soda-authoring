@@ -1,8 +1,8 @@
-# dsh-soda-authoring
+# soda-dsh-authoring
 
 一个 **skill 包**：把「怎么给 DeepSeek Harness 写 skill 和插件」写成模型能直接照着做的操作手册。
 
-它不提供工具、不监听事件 —— Host 侧的 `apply()` 是空的，作用全在 `skills/dsh-soda-authoring/SKILL.md` 里。
+它不提供工具、不监听事件 —— Host 侧的 `apply()` 是空的，作用全在 `skills/soda-dsh-authoring/SKILL.md` 里。
 
 ## 它解决什么
 
@@ -25,12 +25,17 @@ SKILL.md   10 KB，八节：判断 / 放哪 / 怎么写 / 加载机制 / 排查�
 ## 安装
 
 ```bash
-dsh plugin --profile <profile> add dsh-soda-authoring
+dsh plugin --profile <profile> add soda-dsh-authoring
 ```
 
-或者直接把 `skills/dsh-soda-authoring/` 拷进 `~/.dsh/skills/`（skill 是热重载的，不用重启）。
+或者直接把 `skills/soda-dsh-authoring/` 拷进 `~/.dsh/skills/`（skill 是热重载的，不用重启）。
 
 > skill 目录必须是 `<root>/<name>/SKILL.md` 正好一层。嵌在 bundle 里的 `skills/<name>/SKILL.md` 会被插件装好，但**skill 根目录只扫一层**，所以从包内安装后仍需确认它出现在 `available_skills` 里。
+
+## 作者其他项目
+
+- [soda-memory-seed](https://github.com/Ambulr/soda-memory-seed) —— 给 AI 代理的记忆框架（文本 + git + 亲手判断）
+- [soda-dsh-todo-nag](https://github.com/Ambulr/soda-dsh-todo-nag) —— DeepSeek Harness 的 todo 纪律守卫
 
 ## License
 

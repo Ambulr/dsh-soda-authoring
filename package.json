@@ -1,5 +1,5 @@
 {
-  "name": "dsh-soda-authoring",
+  "name": "soda-dsh-authoring",
   "version": "1.0.0",
   "type": "module",
   "description": "DSH 插件与 skill 制作手册：bundle 结构、装进 profile 的三步、十二个真实的坑",
