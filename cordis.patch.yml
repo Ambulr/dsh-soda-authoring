@@ -1,5 +1,5 @@
 - insert:
-    - id: soda-dsh-authoring
-      name: 'soda-dsh-authoring'
+    - id: dsh-soda-authoring
+      name: 'dsh-soda-authoring'
       config:
         enabled: true

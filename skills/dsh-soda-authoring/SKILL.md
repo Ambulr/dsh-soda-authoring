@@ -1,5 +1,5 @@
 ---
-name: soda-dsh-authoring
+name: dsh-soda-authoring
 description: >
   Build, install, or debug a DeepSeek Harness skill or plugin bundle. Use when creating a skill
   (a SKILL.md the model loads on demand), when a skill does not show up in the catalog, when
